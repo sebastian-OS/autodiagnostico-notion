@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aviso Legal · Sebastián Olmedo · Consultor IT Notion</title>
+<meta name="description" content="Aviso legal y condiciones de uso del sitio web." />
+<link rel="icon" type="image/png" href="photo-circle.png" />
+<style>
+  @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype'); }
+  @font-face { font-family: 'Montserrat'; font-style: italic; font-weight: 100 900; font-display: swap; src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'); }
+  @font-face { font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype'); }
+  :root {
+    --bg: #0E0E0E; --bg-2: #161616; --ink: #F5F1EA; --ink-muted: #A8A097; --ink-faint: #5D564E;
+    --brand: #F07820; --brand-soft: #FAC775;
+    --rule: rgba(245, 241, 234, 0.08); --rule-strong: rgba(245, 241, 234, 0.16);
+    --display: 'Montserrat', sans-serif; --body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  ::selection { background: var(--brand); color: var(--bg); }
+  .container { max-width: 780px; margin: 0 auto; padding: 0 32px; }
+  @media (max-width: 768px) { .container { padding: 0 20px; } }
+  .top { display: flex; justify-content: space-between; align-items: center; padding: 28px 0; border-bottom: 1px solid var(--rule); font-family: var(--display); font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-muted); font-weight: 500; }
+  .top a { color: var(--ink-faint); text-decoration: none; transition: color .2s; }
+  .top a:hover { color: var(--brand); }
+  .top .brand { color: var(--ink); display: flex; align-items: center; gap: 10px; }
+  .top .brand .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--brand); }
+  .top .back::before { content: "← "; }
+  .hero { padding: 72px 0 48px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { display: inline-flex; align-items: center; gap: 12px; font-family: var(--display); font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); font-weight: 600; margin-bottom: 24px; }
+  .eyebrow::before { content: ""; width: 32px; height: 1px; background: var(--brand); }
+  h1 { font-family: var(--display); font-weight: 300; font-size: clamp(32px, 4.8vw, 52px); line-height: 1.05; letter-spacing: -0.025em; margin-bottom: 18px; text-wrap: balance; }
+  h1 em { font-style: italic; font-weight: 400; color: var(--brand-soft); }
+  .meta-bar { margin-top: 24px; font-family: var(--display); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); font-weight: 500; display: flex; gap: 24px; flex-wrap: wrap; }
+  .meta-bar b { color: var(--ink); font-weight: 600; }
+  main { padding: 56px 0 80px; }
+  section { margin-bottom: 48px; }
+  h2 { font-family: var(--display); font-weight: 500; font-size: clamp(20px, 2.4vw, 24px); line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); color: var(--ink); display: flex; gap: 14px; align-items: baseline; }
+  h2 .num { font-family: var(--display); font-style: italic; font-weight: 300; font-size: 14px; color: var(--brand); }
+  p { font-family: var(--body); font-size: 15px; color: var(--ink-muted); line-height: 1.7; margin-bottom: 14px; }
+  p strong { color: var(--ink); font-weight: 500; }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  ul li { font-family: var(--body); font-size: 15px; color: var(--ink-muted); line-height: 1.7; margin-bottom: 6px; }
+  ul li strong { color: var(--ink); font-weight: 500; }
+  a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+  a:hover { color: var(--brand-soft); }
+  .data-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-family: var(--body); font-size: 14px; }
+  .data-table th, .data-table td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  .data-table th { font-family: var(--display); font-weight: 600; font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); background: rgba(245,241,234,0.02); }
+  .data-table td { color: var(--ink-muted); }
+  .data-table td strong { color: var(--ink); }
+  footer { padding: 32px 0 48px; border-top: 1px solid var(--rule); text-align: center; font-family: var(--display); font-style: italic; font-weight: 300; font-size: 13px; color: var(--ink-muted); }
+  footer b { font-style: normal; font-weight: 600; color: var(--ink); }
+  footer .links { display: flex; gap: 18px; justify-content: center; font-style: normal; margin-top: 14px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+  footer .links a { color: var(--ink-faint); text-decoration: none; }
+  footer .links a:hover { color: var(--brand); }
+  @media print { body { background: white !important; color: #1a1a1a !important; } h1, h2, p, li { color: #1a1a1a !important; } .top .back, footer .links { display: none; } }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="top">
+    <a href="index.html" class="brand"><span class="dot" aria-hidden="true"></span><span>Sebastián Olmedo · Consultor Notion</span></a>
+    <a href="index.html" class="back">Volver al mapa</a>
+  </div>
+
+  <section class="hero">
+    <div class="eyebrow">Información legal · LSSI-CE</div>
+    <h1>Aviso <em>legal</em>.</h1>
+    <p>Información obligatoria sobre el titular del sitio web, conforme a la Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE).</p>
+    <div class="meta-bar">
+      <span>Última actualización · <b>Mayo 2026</b></span>
+      <span>Marco legal · <b>LSSI-CE · Ley 34/2002</b></span>
+    </div>
+  </section>
+
+  <main>
+
+    <section>
+      <h2><span class="num">01</span><span>Datos identificativos del titular</span></h2>
+      <table class="data-table">
+        <tr><th>Titular</th><td><strong>Sebastián Olmedo Salinas</strong></td></tr>
+        <tr><th>NIF</th><td>55339904H</td></tr>
+        <tr><th>Domicilio profesional</th><td>Alicante, España</td></tr>
+        <tr><th>Email de contacto</th><td><a href="mailto:sebastianolmedosalinas@gmail.com">sebastianolmedosalinas@gmail.com</a></td></tr>
+        <tr><th>Actividad</th><td>Consultoría IT en Notion + IA</td></tr>
+        <tr><th>Dominio web</th><td><a href="https://mapa-consultoria-notion.vercel.app">mapa-consultoria-notion.vercel.app</a></td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span><span>Objeto</span></h2>
+      <p>Este sitio web tiene como finalidad informar sobre los servicios profesionales de consultoría IT en Notion que ofrece el titular, así como permitir la reserva de citas de consulta sin coste y la descarga de recursos gratuitos.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span><span>Condiciones de uso</span></h2>
+      <p>El acceso a este sitio es libre y gratuito. Al utilizarlo, el visitante se compromete a:</p>
+      <ul>
+        <li>Hacer un uso adecuado y lícito del sitio, conforme a la legislación vigente y a la buena fe.</li>
+        <li>No realizar actividades contrarias a los derechos del titular ni de terceros.</li>
+        <li>No introducir virus, código malicioso o cualquier elemento que pueda alterar el funcionamiento del sitio.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">04</span><span>Propiedad intelectual e industrial</span></h2>
+      <p>Todos los contenidos del sitio web (textos, imágenes, gráficos, código fuente, diseño y selección de los mismos) son <strong>propiedad del titular</strong> o cuentan con licencia legítima de uso. Quedan reservados todos los derechos.</p>
+      <p>Las marcas, logotipos y denominaciones comerciales que aparecen (Notion, Claude, Volcanic Internet, Asana, etc.) pertenecen a sus respectivos propietarios y se utilizan únicamente con fines informativos o descriptivos.</p>
+      <p>Queda prohibida la reproducción, distribución, comunicación pública o transformación total o parcial del contenido sin autorización expresa por escrito del titular.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">05</span><span>Exclusión de garantías y responsabilidad</span></h2>
+      <p>El titular no se hace responsable de:</p>
+      <ul>
+        <li>Las posibles interrupciones, errores o falta de disponibilidad del sitio.</li>
+        <li>Los daños derivados del uso de información incorrecta o desactualizada.</li>
+        <li>El contenido o funcionamiento de sitios externos enlazados desde aquí.</li>
+        <li>El uso indebido por parte de terceros del contenido del sitio.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">06</span><span>Enlaces a terceros</span></h2>
+      <p>Este sitio incluye enlaces a plataformas de terceros (LinkedIn, WhatsApp, Notion, Vercel). El titular no se responsabiliza del contenido ni de las políticas de privacidad de dichos sitios. Su uso queda sujeto a sus propios términos.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span><span>Protección de datos</span></h2>
+      <p>Este sitio web <strong>no recoge datos personales identificables de forma activa</strong>: no hay formularios, ni newsletters, ni calendarios embebidos. Utilizo el sistema de analítica anónima de Vercel (mi proveedor de hosting), que mide estadísticas agregadas (visitas, páginas vistas, fuente de tráfico, país) sin cookies y sin identificación individual. Esta información solo me sirve para entender qué contenidos interesan más, no se cruza con datos personales ni se cede a terceros.</p>
+      <p>Cuando un visitante decide escribirme por cualquiera de esos canales, paso a tratar los datos mínimos necesarios para responder (nombre, contacto y contenido del mensaje). Mis obligaciones, conforme al RGPD y a la LOPDGDD, se limitan a:</p>
+      <ul>
+        <li><strong>Responder</strong> en plazo razonable si me pides acceder, rectificar o borrar tus datos (escríbeme a sebastianolmedosalinas@gmail.com).</li>
+        <li><strong>No vender, ni alquilar, ni ceder</strong> tu información a terceros con fines comerciales.</li>
+        <li><strong>Conservar tus datos</strong> sólo el tiempo necesario para la relación profesional o hasta que solicites su supresión.</li>
+        <li>Mantener este <strong>Aviso Legal</strong> con mis datos identificativos a tu disposición.</li>
+      </ul>
+      <p>Al no recoger datos de forma activa, este sitio no requiere formularios de consentimiento detallados ni notificación previa a la Agencia Española de Protección de Datos. Las conversaciones que mantengo a través de WhatsApp, email y LinkedIn se rigen, además, por las políticas de privacidad de las propias plataformas (Meta, Google, Microsoft).</p>
+      <p>Si en algún momento quieres ejercer cualquiera de tus derechos (acceso, rectificación, supresión, oposición, limitación o portabilidad reconocidos por el RGPD), escríbeme y responderé en un plazo máximo de <strong>30 días</strong>.</p>
+      <p><strong>Tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos</strong> (<a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">www.aepd.es</a>) si consideras que el tratamiento de tus datos no cumple con la normativa.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">08</span><span>Legislación aplicable y jurisdicción</span></h2>
+      <p>El presente aviso legal se rige por la legislación española. Para la resolución de cualquier controversia derivada del uso del sitio, las partes se someten a los <strong>Juzgados y Tribunales de Alicante</strong>, salvo que la normativa aplicable disponga otro fuero.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <span><b>Sebastián Olmedo Salinas</b> · Consultor IT Notion · Alicante, España</span>
+    <div class="links">
+      <a href="index.html">Inicio</a>
+      <a href="aviso-legal.html">Aviso legal</a>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
